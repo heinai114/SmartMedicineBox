@@ -233,7 +233,7 @@
     "FPGA/verification/tb_hint_pixels.v": "6d34b5c3f5fff52ec7dc2199652bfe3210425b6dc438921e67474e2df85bbd38",
     "FPGA/verification/tb_temperature_hint.v": "2e1ff5b456c8afb32dd9385a71dbd26e26d6789fb66ab03df8561038187e97eb",
     "FPGA/verification/temperature_glyphs.js": "3dd02574bc4af37f3730ddf429ddd1e2ee728ecd82c1296841c6c256351fed74",
-    "README.md": "84f84b727c4ce9c37fdbfc7fd829952ec40f402ab1f6a373486b1bd4870905f2",
+    "README.md": "6f325d493e6a12b7b4158843f35bbcd2656bb32bf01838c421db3f1b9c91d0ed",
     "requirements.txt": "dee66a6fd7af314ef9bffcc1170d09684e468588fbe5d8668c6379b0b9e65839",
     "SHA256SUMS.txt": "6ea23b8f1aa662e64d04c5af703edfd797f695e7f95321d24c04d360f0ab03b9",
     "SmartMedicineBox.bit": "0c5745ba20e62ad42a73875f82fb984d5210627f06e1f84fb4f0a05269241c8a",

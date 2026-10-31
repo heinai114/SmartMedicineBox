@@ -33,7 +33,7 @@
 
 硬件为 HX4S20C 开发板（EG4S20BG256）、支持 HDMI 音频的显示设备、TF 卡、DS3231/AT24C32 小板和 4×4 无源矩阵键盘。接线和操作见[使用说明](使用说明.md)。
 
-从仓库的 **Releases** 下载 `TF卡素材.zip`，将其中 25 个文件直接放入 FAT32 TF 卡根目录。已烧录现行配置的开发板可以直接上电使用；需要下载配置时使用本目录的 `SmartMedicineBox.bit`。
+从仓库的 **Releases** 下载 `tf-media.zip`，将其中 25 个文件直接放入 FAT32 TF 卡根目录。已烧录现行配置的开发板可以直接上电使用；需要下载配置时使用本目录的 `SmartMedicineBox.bit`。
 
 源码、工程和 bit 放在代码仓库中；TF 素材、历史验证压缩包及 Windows 仿真运行库作为 Release 附件发布。编译输出和本地工具运行文件由 `.gitignore` 排除。
 
@@ -68,7 +68,7 @@ python tools/check_repository.py --media
 
 移动仓库后，如果 TD 需要更新工程根路径，可以运行 `python tools/check_repository.py --prepare-project`；该选项只修正工程根路径元数据。
 
-重新运行温度提示仿真还需要 `numpy`、`Pillow` 和 Windows Icarus 运行库。从 Releases 下载 `RTL仿真工具.zip`，解压到仓库根目录，得到 `tools/rtl_sim/icarus/`。完整像素测试还需要将 `TF卡素材.zip` **保留为 ZIP 文件放在仓库根目录**。
+重新运行温度提示仿真还需要 `numpy`、`Pillow` 和 Windows Icarus 运行库。从 Releases 下载 `rtl-sim-tools.zip`，解压到仓库根目录，得到 `tools/rtl_sim/icarus/`。完整像素测试还需要将下载的 tf-media.zip 需要先重命名为 TF卡素材.zip，再放到仓库根目录。
 
 ```powershell
 python -m pip install numpy Pillow
