@@ -1,0 +1,20 @@
+{
+  "status_updated": "2026-10-26",
+  "version": "TempHint_20261025",
+  "main_bit": "SmartMedicineBox.bit",
+  "main_bit_sha256": "0c5745ba20e62ad42a73875f82fb984d5210627f06e1f84fb4f0a05269241c8a",
+  "flash_programmed": true,
+  "power_switch_autostart": true,
+  "independent_operation": true,
+  "practical_use": "运行稳定，未出现功能异常",
+  "source": "用户在当前对话明确说明：所提供视频均为Flash固化后运行，红色电源开关上电即启动，实际使用稳定。",
+  "previous_feedback": "用户上板反馈.json retains the earlier 2026-10-25 statement.",
+  "protected_source_count": 180,
+  "protected_inputs_match_accepted_version": true,
+  "local_project_followup": {
+    "resolved": true,
+    "resolution": "AL参数已与现有09:25成功GUI构建统一；构建记录、清单及工程包同步。",
+    "gui_configuration_matches_accepted_bit": true,
+    "details": "GUI编译验证/记录同步_20261026.json"
+  }
+}

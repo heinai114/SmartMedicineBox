@@ -1,0 +1,2 @@
+# Preserve original source, ROM and firmware bytes across clone/checkouts.
+* -text

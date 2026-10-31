@@ -1,0 +1,74 @@
+{
+  "pass": true,
+  "date": "2026-10-25",
+  "method": "Existing successful TD GUI build from 2026-10-25 09:22--09:25; logs, generated PRJ, timing and bit payload reconciled on 2026-10-26. No new build or programming in this reconciliation.",
+  "project": "FPGA/TD/SmartMedicineBox.al",
+  "parameters": {
+    "syn_1": {
+      "gate": {
+        "pack_effort": "high"
+      }
+    },
+    "phy_1": {
+      "place": {
+        "seed": "1",
+        "pack_mode": "more_lut_pair"
+      },
+      "route": {
+        "effort": "routability"
+      }
+    }
+  },
+  "gui_generated_project_properties_verified": true,
+  "actual_logged_commands_verified": true,
+  "protected_inputs_unchanged": 180,
+  "al_changes_limited_to_runs": true,
+  "accepted_hardware_bit_sha256": "0c5745ba20e62ad42a73875f82fb984d5210627f06e1f84fb4f0a05269241c8a",
+  "gui_bit_sha256": "88cf455f0b8135a8a4cd4d3b822a8a4fe3a42432b03d16cdf473ec5645d3bf16",
+  "gui_bit_matches_accepted": false,
+  "only_ascii_date_comment_differs": true,
+  "configuration_without_date_sha256": "01b2e1476b5cee6032a2b4f25b5de89b7066e767cf19fa4a990825d836823770",
+  "accepted_date_comment": "# Date: 2026/10/25  1:25",
+  "gui_date_comment": "# Date: 2026/10/25  9:25",
+  "timing": {
+    "SWNS": 0.107,
+    "STNS": 0.0,
+    "HWNS": 0.019,
+    "HTNS": 0.0
+  },
+  "sta_coverage_percent": 94.88,
+  "resources": {
+    "lut": 16784,
+    "reg": 8840,
+    "bram9k": 64,
+    "bram32k": 16,
+    "dsp": 18,
+    "pll": 3
+  },
+  "log_sha256": {
+    "syn_1": "8c924478c0088202f28577f499707794af70a3cc0c004f44d0bed7ef47b9d3a5",
+    "phy_1": "d0c12301e32a6f06a6fc05cd0b6489a6670b00980b3b7493e572e635dc4b9738"
+  },
+  "generated_project_sha256": {
+    "syn_1": "26653f7c64c8312330c99c1ae985f3f06e3971b505febef8e35b1838abd75aea",
+    "phy_1": "180c7b77344381f5fd17be72f988cfc11c906b6c9c7932894d40ed86be11ec80"
+  },
+  "gui_bit_bytes": 716924,
+  "unmodified_default_flow_sha256": "d1a5d4291706dac224cc33008d8945e79ed2eb1adf8ce86cca46be564975bade",
+  "separate_post_route_fix_hold": false,
+  "hardware_programmed": false,
+  "reopen_note": "Keep nondefault private pack_mode/seed: choose Cancel rather than Revert in TD prompt.",
+  "record_reconciled": "2026-10-26",
+  "reconciliation_note": "The successful GUI PRJs differ from the earlier archived PRJs only in RunTime. The GUI bit differs from the accepted hardware bit only in its ASCII Date comment. Missing AL physical-run parameters were restored to match the successful execution.",
+  "historical_generated_project_sha256": {
+    "syn_1": "26ea754e38779f4e21f683907353d339a5b881601a80a918c97d74af8c6f116b",
+    "phy_1": "8673b4c41cd940593f2138b40163f809ad3285dc399b95f73a28bd953ad536e7"
+  },
+  "project_name_update": {
+    "date": "2026-10-30",
+    "old_name": "114514",
+    "new_name": "SmartMedicineBox",
+    "saved_execution_logs_unchanged": true,
+    "new_build_performed": false
+  }
+}

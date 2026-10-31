@@ -1,0 +1,31 @@
+# TD build output; keep project inputs and all ROM/font files.
+/FPGA/TD/*_Runs/
+/FPGA/TD/log/
+*.db
+*.vcd
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+Thumbs.db
+
+# Downloadable release attachments.
+/*.zip
+/*.rar
+/历史验证记录/
+/tools/rtl_sim/icarus/
+
+# Generated current simulation results; historical receipts are under docs/.
+/FPGA/verification/*.vvp
+/FPGA/verification/*.cfg
+/FPGA/verification/*.files
+/FPGA/verification/*_compile.log
+/FPGA/verification/*_test.log
+/FPGA/verification/hint_frame_*.rgb
+/FPGA/verification/hint_frame_*.png
+/FPGA/verification/temperature_cases.csv
+/FPGA/verification/temperature_routed.v
+/FPGA/verification/tests.json
+/FPGA/verification/hint_summary.json
+/FPGA/verification/font_audit.json
+/FPGA/verification/温度提示预览.png

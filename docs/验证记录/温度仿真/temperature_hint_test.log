@@ -1,0 +1,2 @@
+PASS temperature hint: exact 300 visible frames, one-shot episodes, hysteresis, priority pause/cancel, invalid readings, negative fractions, reset and 36864 boundary cases
+..\verification\tb_temperature_hint.v:70: $finish called at 1894140000 (1ps)

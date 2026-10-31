@@ -1,0 +1,2 @@
+PASS integrated RTC hint: actual VS pulses drive controller; valid/priority inputs, custom duration, high/cold one-shots, no forced internal signals
+..\verification\tb_hint_integration.v:23: $finish called at 2420000 (1ps)

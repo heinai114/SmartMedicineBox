@@ -1,0 +1,2 @@
+PASS hint pixels: six complete frames, exact original pixels outside popup, default-disabled compatibility, shared glyph ROM and two-clock RGB/DE/VS alignment
+..\verification\tb_hint_pixels.v:55: $finish called at 23041900000 (1ps)

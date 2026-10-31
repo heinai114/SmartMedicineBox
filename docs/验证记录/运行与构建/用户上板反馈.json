@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-25",
+  "version": "TempHint_20261025",
+  "bit_sha256": "0c5745ba20e62ad42a73875f82fb984d5210627f06e1f84fb4f0a05269241c8a",
+  "source": "User message in this conversation",
+  "feedback": "上板效果符合预期",
+  "scope": "用户确认本版上板效果；不是本次自动测量、重新下载或Flash/冷启动/长期运行认证。",
+  "cleanup": "仅整理归档和路径修复，不改RTL/ROM/约束/bit，不重新构建，不操作硬件或TF卡。"
+}

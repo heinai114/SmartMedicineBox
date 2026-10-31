@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-26",
+  "successful_build_date": "2026-10-25 09:25",
+  "observations": {
+    "current_gui_timing": {
+      "SWNS": 0.107,
+      "STNS": 0.0,
+      "HWNS": 0.019,
+      "HTNS": 0.0
+    },
+    "logged_place_parameters": {
+      "seed": "1",
+      "pack_mode": "more_lut_pair"
+    },
+    "gui_bit_configuration_matches_accepted": true,
+    "generated_prj_changes_from_old_archive": "RunTime only",
+    "al_before_update_sha256": "871b79d7e4dbcc41cd25360320c9c90148c9c87a3952364b1fbc69d5564bdfae",
+    "al_after_update_sha256": "655810b9a43fbacfbb1a8f89932ba988b2e99c72c994e97212dbce5efc1bb0e4"
+  },
+  "action": "仅将AL的phy_1 Run元数据补回至成功构建使用的参数；同步GUI收据、说明、校验及工程包。",
+  "cause": "文件显示AL未保留两项非默认布局参数；无法仅依据现有文件确定当时的界面操作。",
+  "not_performed": [
+    "new synthesis/place/route",
+    "board programming",
+    "TF or EEPROM writes"
+  ],
+  "protected_inputs_unchanged": 180,
+  "accepted_main_bit_unchanged": true
+}

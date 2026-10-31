@@ -1,0 +1,31 @@
+{
+  "temperature_hint": {
+    "pass": true,
+    "seconds": 1.0,
+    "inputs": {
+      "verification\\tb_temperature_hint.v": "2e1ff5b456c8afb32dd9385a71dbd26e26d6789fb66ab03df8561038187e97eb",
+      "user_source\\hdl_source\\rtc\\temperature_hint_control.v": "b3d11cda3e7396b4f4f216f16f128a74a7219b69e9322115cca5a84899b27a78"
+    }
+  },
+  "hint_pixels": {
+    "pass": true,
+    "seconds": 141.17,
+    "inputs": {
+      "verification\\tb_hint_pixels.v": "6d34b5c3f5fff52ec7dc2199652bfe3210425b6dc438921e67474e2df85bbd38",
+      "verification\\rtc_reference.v": "24127b964c2e1b827eda4aaf13bec66a380a5280626ad931128bb6ea7c5ec6ac",
+      "verification\\eg_bram32k_model.v": "13d39bf539b9804e2913f07b5f6eb8e8dcb8b217f0503cd74712c29e5c79e5c5",
+      "user_source\\hdl_source\\rtc\\temperature_hint_control.v": "b3d11cda3e7396b4f4f216f16f128a74a7219b69e9322115cca5a84899b27a78",
+      "user_source\\hdl_source\\rtc\\video_rtc_overlay.v": "6011950402ba1b1e78f6250d3b7e7e59f90bdd26d038dd080964cb27102869c0"
+    }
+  },
+  "hint_integration": {
+    "pass": true,
+    "seconds": 0.46,
+    "inputs": {
+      "verification\\tb_hint_integration.v": "351a59e7b191bfb35823207935fdb0a3d39743117a6b73504bd735a401aa8c39",
+      "verification\\eg_bram32k_model.v": "13d39bf539b9804e2913f07b5f6eb8e8dcb8b217f0503cd74712c29e5c79e5c5",
+      "user_source\\hdl_source\\rtc\\temperature_hint_control.v": "b3d11cda3e7396b4f4f216f16f128a74a7219b69e9322115cca5a84899b27a78",
+      "user_source\\hdl_source\\rtc\\video_rtc_overlay.v": "6011950402ba1b1e78f6250d3b7e7e59f90bdd26d038dd080964cb27102869c0"
+    }
+  }
+}

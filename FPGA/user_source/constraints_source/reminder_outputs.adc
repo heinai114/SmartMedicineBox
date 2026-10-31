@@ -1,0 +1,5 @@
+set_pin_assignment {med_led[0]} { LOCATION = A4; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; };
+set_pin_assignment {med_led[1]} { LOCATION = A3; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; };
+set_pin_assignment {med_led[2]} { LOCATION = C10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; };
+set_pin_assignment {med_led[3]} { LOCATION = B12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; };
+set_pin_assignment {med_buzzer} { LOCATION = H11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; };

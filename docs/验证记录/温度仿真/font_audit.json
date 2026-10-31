@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "font": "SimHei",
+  "cell_pixels": 32,
+  "pool": "温度偏高注意防暑低记得添衣",
+  "glyphs": 13,
+  "hint_byte_offset": 2048,
+  "hint_bytes": 1664,
+  "original_lower_2048_bytes_identical": true,
+  "independent_gdi_pngs_match": true,
+  "original_font_sha256": "3529fb7938fcfe5a4df367b682a7f0ff815212b1673b8b979d52deb4a143f703",
+  "combined_font_sha256": "fabc8a5fb869b735432c181c32aa1def7936bd7032c06b90273c18156cc7fe41",
+  "generator_sha256": "523868de39857a7671f683047e5b8236a8eaa461f1118a6ed8880b0fb737e17d"
+}

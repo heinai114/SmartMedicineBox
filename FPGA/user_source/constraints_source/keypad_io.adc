@@ -1,0 +1,9 @@
+# J1.3..10; manual p13. R1..4 are low-or-Z, C1..4 use 3.3V pullups.
+set_pin_assignment { keypad_rows[0] } { LOCATION = G12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 4; PULLTYPE = NONE; }
+set_pin_assignment { keypad_rows[1] } { LOCATION = F13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 4; PULLTYPE = NONE; }
+set_pin_assignment { keypad_rows[2] } { LOCATION = H13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 4; PULLTYPE = NONE; }
+set_pin_assignment { keypad_rows[3] } { LOCATION = H14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 4; PULLTYPE = NONE; }
+set_pin_assignment { keypad_columns[0] } { LOCATION = J14; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { keypad_columns[1] } { LOCATION = J13; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { keypad_columns[2] } { LOCATION = K12; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { keypad_columns[3] } { LOCATION = L14; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }

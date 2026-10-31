@@ -1,0 +1,6 @@
+{
+  "cli": "D:\\fpga\\bin\\td_commands_prompt.exe",
+  "default_flow_sha256": "d1a5d4291706dac224cc33008d8945e79ed2eb1adf8ce86cca46be564975bade",
+  "bit_sha256": "0c5745ba20e62ad42a73875f82fb984d5210627f06e1f84fb4f0a05269241c8a",
+  "flow": "Unmodified DefaultFlow; gate pack_effort high; place seed 1; place pack_mode more_lut_pair; route effort routability; arr_filter false; no separate post-route fix_hold command"
+}
